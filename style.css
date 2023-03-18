@@ -1,8 +1,11 @@
+/* Setting box size to screen size and margin and padding to 0 */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Giving background color and setting width and Height */
 body{
     width: 100vw;
     height: auto;
@@ -10,10 +13,14 @@ body{
     background-color: rgb(8, 8, 8);
     color: white;
 }
+
+/* Setting Background Color for the section */
 .background{
     width: 100vw;
     margin: 0 auto;
 }
+
+/* Setting up header */
 .header{
     margin-top: 5vw;
     display: grid;
@@ -23,8 +30,81 @@ body{
     margin-right: auto;
     
 }
+
+/* Giving size to sub divs of header */
 .header_img,.header_info,.header_social{
     border: 2px solid white;
-    
+    height: 20vw;
+    overflow: hidden;
 }
 
+
+/* Setting header 3rd div Catagouries */
+.header_social_1{
+    height: 8vw;
+}
+.header_social_2{
+    display: flex;
+    height: 12vw;
+    border: 2px solid white;
+}
+.header_social_2_insta_1,.header_social_2_fb_1{
+    display: flex;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+.header_social_2_insta h1,.header_social_2_fb h1{
+    font-size: 1.5vw;
+    color: rgb(249, 136, 7);
+    text-align: center;
+    margin-top: 1vw;
+}
+.header_social_2_insta h1{
+    margin-top: 2.2vw;
+}
+
+.header_social_2_insta,.header_social_2_fb{
+    border: 1px solid white;
+    width: 50%;
+}
+.header_social_2_insta img,.header_social_2_fb img{
+    margin-left: 1vw;
+}
+
+
+
+
+
+/* Setting up the size of all the images inside the header */
+.header_img img{
+    width: 17vw;
+    margin: 0 3vw;
+}
+.header_info img,.header_social img{
+    width: 2vw;
+    height: 2vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
+}
+
+/* Setting up the size of the headings and paragraphs inside the header */
+.header h1{
+    font-size: 2vw;
+    color: rgb(249, 136, 7);
+}
+.header .header_info h1{
+    margin: 1vw;
+    font-size: 4.5vw;
+}
+.header .header_info p{
+    margin: 1vw;
+    margin-top: 3vw;
+    font-size: 1.2vw;
+}
+.header h2{
+    font-size: 1vw;
+}
+.header_social_1 h1{
+    font-size: 7vw;
+    text-align: center;
+}
