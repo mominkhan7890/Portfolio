@@ -220,6 +220,133 @@ body{
 /* Profile info and experience */
 /* ==================================================================================================== */
 
+/* Main grid */
+.profile_experience_etc{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    margin-top: 5vw;
+    margin-left: 3vw;
+    margin-right: auto;
+    grid-gap: 1vw;
+}
+
+
+
+
+/* LEFT SIDE */
+/* Div boxes sizes */
+/* Div main Catagoury */
+.profile_experience_etc .side_left{
+    /* border: 2px white solid; */
+    /* padding: 1vw; */
+}
+.profile_experience_etc .side_right{
+    border: 2px white solid;
+    /* padding: 1vw; */
+}
+
+/* Div Boxes sub catagoury */
+.profile_experience_etc .side_left .side_left_profile{
+    width: 100%;
+    height: 30vw;
+    padding: 3vw;
+    background-color: rgb(249, 136, 7);
+    border-radius: 40px;
+    box-shadow: -5px 10px 1px 5px white;
+}
+.profile_experience_etc .side_left .side_left_WEHeading{
+    width: 100%;
+    height: 6vw;
+    padding: 1vw;
+}
+.profile_experience_etc .side_left .side_left_front_end_dev{
+    width: 100%;
+    height: 36vw;
+    padding: 2.8vw;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 5px 10px 1px 2px rgb(249, 136, 7);
+}
+.profile_experience_etc .side_left .side_left_web_designer{
+    width: 100%;
+    height: 28vw;
+    padding: 3vw;
+    background-color: white;
+    margin-top: 2vw;
+    border-radius: 40px;
+    box-shadow: 5px 10px 1px 2px rgb(249, 136, 7);
+}
+
+
+
+
+
+
+
+/* Heading tags */
+.profile_experience_etc .side_left .side_left_profile h1{
+    font-size: 4vw;
+    margin-bottom: 3vw;
+}
+.profile_experience_etc .side_left .side_left_WEHeading h1{
+    font-size: 4vw;
+}
+.profile_experience_etc .side_left .side_left_front_end_dev h1{
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    color: rgb(0, 0, 0);
+    color: rgb(249, 136, 7);
+}
+.profile_experience_etc .side_left .side_left_web_designer h1{
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    color: rgb(0, 0, 0);
+    color: rgb(249, 136, 7);
+}
+
+
+
+
+
+
+/* Paragraph tags */
+.profile_experience_etc .side_left .side_left_profile p{
+    font-size: 1.5vw;
+}
+.profile_experience_etc .side_left .side_left_front_end_dev li{
+    line-height: 2vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+}
+.profile_experience_etc .side_left .side_left_web_designer p{
+    line-height: 2vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+/* RIGHT SIDE */
+/* Div Styling */
+
+
+
+
+
+/* Heading style */
+
+
+
+
+/* Paragraph style */
+
+
 
 
 
