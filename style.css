@@ -23,13 +23,14 @@ body{
 /* Setting Background Color for the section */
 .background{
     width: 100vw;
+    height: 100%;
     margin: 0 auto;
-    background: linear-gradient(to bottom left, black, white);
+    background: linear-gradient(to bottom left, black, rgb(62, 60, 60));
 }
 
 /* Setting up header */
 .header{
-    margin-top: 5vw;
+    padding-top: 5vw;
     display: grid;
     grid-template-columns: 24% 34% 38%;
     grid-gap: 10px;
@@ -74,6 +75,12 @@ body{
 .header_social_2_insta,.header_social_2_fb{
     border: 1px solid white;
     width: 50%;
+}
+.header_social_2_insta{
+    border-left: none;
+}
+.header_social_2_fb{
+    border-right: none;
 }
 .header_social_2_insta img,.header_social_2_fb img{
     margin-left: 1vw;
@@ -128,5 +135,91 @@ body{
 /* ==================================================================================================== */
 /* Name and social media details */
 /* ==================================================================================================== */
+
+
+/* Headings */
+.name_and_social_media .name h1{
+    font-size: 7vw;
+    color: rgb(249, 136, 7);
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+/* hrefs */
+/* setting up all the hrefs of div */
+.contact_info a{
+    color: black;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+.social_media a{
+    color: black;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-left: 0.5vw;
+}
+
+
+
+/* images */
+/* setting up all the images of div */
+.name_and_social_media img{
+    width: 3vw;
+    height: 3vw;
+}
+.name_and_social_media .social_media_fiver img{
+    border-radius: 50%;
+}
+
+
+
+/* size of divs */
+
+/* setting the size of main info */
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+}
+.contact_info div{
+    margin-top: 2vw;
+    width: 25vw;
+    height: 3.5vw;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* setting the size of social media */
+.social_media{
+    display: flex;
+    justify-content: space-around;
+}
+.social_media div{
+    margin-top: 2vw;
+    width: 14vw;
+    height: 3.5vw;
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* ==================================================================================================== */
+/* Profile info and experience */
+/* ==================================================================================================== */
+
+
 
 
