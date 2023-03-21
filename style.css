@@ -241,7 +241,7 @@ body{
     /* padding: 1vw; */
 }
 .profile_experience_etc .side_right{
-    border: 2px white solid;
+    /* border: 2px white solid; */
     /* padding: 1vw; */
 }
 
@@ -274,7 +274,16 @@ body{
     background-color: white;
     margin-top: 2vw;
     border-radius: 40px;
-    box-shadow: 5px 10px 1px 2px rgb(249, 136, 7);
+    box-shadow: -5px 10px 1px 2px rgb(249, 136, 7);
+}
+.profile_experience_etc .side_left .side_left_video_editing{
+    width: 100%;
+    height: 28vw;
+    padding: 3vw;
+    background-color: white;
+    margin-top: 4vw;
+    border-radius: 40px;
+    box-shadow: -5px -10px 1px 2px rgb(249, 136, 7);
 }
 
 
@@ -303,6 +312,12 @@ body{
     color: rgb(0, 0, 0);
     color: rgb(249, 136, 7);
 }
+.profile_experience_etc .side_left .side_left_video_editing h1{
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    color: rgb(0, 0, 0);
+    color: rgb(249, 136, 7);
+}
 
 
 
@@ -323,6 +338,11 @@ body{
     color: rgb(0, 0, 0);
     font-size: 1.5vw;
 }
+.profile_experience_etc .side_left .side_left_video_editing p{
+    line-height: 2vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+}
 
 
 
@@ -331,16 +351,44 @@ body{
 
 
 
-
+/* ======================================================================== */
 /* RIGHT SIDE */
+/* Skills heading */
 /* Div Styling */
-
+.side_right .side_right_skills{
+    width: 100%;
+    height: 20vw;
+    background-color: gainsboro;
+    border-radius: 40px;
+}
+.side_right_skills .skills_types{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-left: 2vw;
+    margin-right: auto;
+}
+.side_right_skills .skills_types div{
+    width: 13vw;
+    height: 3vw;
+    margin-top: 1vw;
+    background-color: black;
+    font-size: 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
 
 
 
 
 /* Heading style */
-
+.side_right .skills_heading h1{
+    font-size: 3vw;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    color: black;
+}
 
 
 
@@ -348,5 +396,128 @@ body{
 
 
 
+
+/* Tools heading */
+/* div styling */
+.side_right_tools{
+    margin-top: 3.5vw;
+    /* border: 2px solid white; */
+    padding: 3vw;
+    background-color: black;
+    border-radius: 40px;
+}
+.side_right_tools .side_right_heading{
+    width: 11vw;
+    border: 1px solid white;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 2vw;
+    background-color: rgb(249, 136, 7);
+}
+
+
+
+
+/* heading styling */
+.side_right_tools h1{
+    font-size: 3vw;
+}
+.side_right_tools h2{
+    font-size: 1.5vw;
+}
+
+
+/* paragraph styling */
+.side_right_tools p{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+}
+
+
+
+
+
+
+
+/* side right languages */
+/* div styling */
+.side_right_lang{
+    margin-top: 3.6vw;
+    /* border: 2px solid white; */
+    padding: 3vw;
+    background-color: rgb(101, 94, 94);
+    border-radius: 40px;
+}
+.side_right_lang_heading{
+    width: 11vw;
+    border: 1px solid white;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-top: 2vw;
+    background-color: rgb(249, 136, 7);
+}
+
+
+/* heading styling */
+.side_right_lang h1{
+    font-size: 3vw;
+}
+.side_right_lang h2{
+    font-size: 1.5vw;
+}
+
+
+/* paragraph styling */
+.side_right_lang p{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+}
+
+
+
+
+
+
+
+
+
+/* Educaion */
+/* div styling */
+
+.education{
+    margin: 5vw;
+    padding: 5vw;
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgb(249, 136, 7);
+}
+
+
+
+
+/* heading styling */
+.education h1{
+    font-size: 4vw;
+}
+.education h2{
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+
+
+/* paragraph styling */
+.education p{
+    font-size: 1.4vw;
+    margin-top: 1vw;
+}
 
 
